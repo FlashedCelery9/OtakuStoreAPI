@@ -1,0 +1,13 @@
+@OtakuStoreAPI_HostAddress = http://localhost:5246
+
+#if (EnableOpenAPI)
+GET {{OtakuStoreAPI_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+#endif
+
+GET {{OtakuStoreAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
